@@ -1,0 +1,44 @@
+@import url('../../css');
+@keyframes blinker {50% {opacity: 0;}}
+.color2{background: #90d5ff;}
+.htc__header__top {-webkit-box-align: center;-ms-flex-align: center;align-items: center;background: #f4f9ff none repeat scroll 0 0;display: -webkit-box;display: -ms-flexbox;display: flex;}
+.ht__header__top__left p {border-right: 1px solid #a8e6ce;margin-right: 45px;padding: 14px 45px 14px 0;}
+.ht__header__top__left p:last-child {border-right: 0 none;margin-right: 0;padding-right: 0;}
+.ht__header__top__left span i {color: #35c985;font-size: 16px;margin-right: 8px;}
+.ht__header__top__left p,.ht__header__top__right p {color: #666;font-size: 13px;font-weight: 400;}
+.ht__header__top__right {text-align: right;}
+.ht__header__top__right .social_icon > a {font-size: 20px;margin-right: 32px;}
+.ht__header__top__right .social_icon > a:last-child {margin-right: 0;}
+.ht__header__top__right {padding: 12px 0px;}
+.ht__header__top__right .social_icon > a i.zmdi-twitter {color: #324B96;}
+.ht__header__top__right .social_icon > a i.zmdi-pinterest {color: #bd081b;}
+.ht__header__top__right .social_icon > a i.zmdi-google-plus {color: #ea4335;}
+.ht__header__top__right .social_icon > a i.zmdi-whatsapp {color: #20b872;}
+.ht__header__top__right .social_icon > a:hover {opacity: 0.7;}
+.header-top-button a {background: #2ba3af;padding: 15px 30px;border-radius: 25px;color: #fff;}
+.header-top-button a:hover {background: #00707e;color: #fff;}
+.marquee-box {background: #f7fbff;}
+.footer-bottom {background: #324B96;padding: 10px 0px;}
+.footer-bottom ul li a {color: #fff;font-size: 14px;}
+.footer-bottom ul li:hover a {color: #e9e4e4 !important;}
+@media (min-width: 320px) and (max-width: 991px){.container-fluid {padding-left: 15px !important;padding-right: 15px !important;}
+.offcanvas-menu-btn{display: block !important;margin-left: auto;}
+.font4{width: 140px !important;font-size: 14px !important;}
+.a-banner img{height: 52px;object-fit: fill;}
+.banner-inner-1 .banner-content{padding-top: 0% !important;}
+.banner-inner{padding: 16px 20px !important;}
+.banner-inner-1 .banner-title {margin-top: -22px;}
+.banner-inner-1 {margin-bottom: 1.5rem !important;}
+.footer-bottom ul{display: block !important;}
+.offcanvas-header .header-logo img{height: 50px;}}
+.headerStyle {background-color: #292929;padding: 20px 20px 30px 20px;}        
+.bg-overlay {position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: url('../images/flag.png') no-repeat center center;background-size: cover;opacity: 0.3; /* Adjust background transparency */z-index: 1;}
+.main{font-family: 'Poppins', sans-serif;background: #fff;width: 450px; min-height: 100vh;display: flex;align-items: center;justify-content: center;}
+.cardbox{background: #fff; padding: 50px;border-radius: 10px;}
+.thank-you-box {height: 80vh; padding: 50px;text-align: center;max-width: 500px;}
+.thank-you-box .btn {padding: 10px 25px;font-size: 16px;}
+.uploadimage{text-align:center;padding: 50px;border-radius: 20px;text-align: center;max-width: 500px;}
+.uploadimage.btn{padding: 10px 25px;font-size: 16px;}
+.step {display: none;}
+.step.active {display: block;}
+.qr-img {max-width: 200px;margin-top: 20px;display: block;}
